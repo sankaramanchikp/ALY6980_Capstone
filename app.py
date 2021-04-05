@@ -51,8 +51,8 @@ if add_selectbox == 'Online':
     Exercise_type = st.selectbox('Exercise Type', ['other', 'Walking', 'Running, biking, hiking, sports, weight lifting', 
                                                    'Cardio', 'spinning', 'running/cardio/weightlifting', 'Walk, run, weights', 'Various, walking, dance or aerobic, yoga, kayak'])
     
-    Diff_types_of_fruit_veggies_in_house = st.selectbox('Different Types of Fruits & Veggies in house',
-                                                        ['4 to 8', '0 to 3', '8', '10', '6', '10+', '4', '20', '9 or more', '7', 'Lots'])
+    #Diff_types_of_fruit_veggies_in_house = st.selectbox('Different Types of Fruits & Veggies in house',
+    #                                                    ['4 to 8', '0 to 3', '8', '10', '6', '10+', '4', '20', '9 or more', '7', 'Lots'])
     
     Alcohol_drinks_per_week = st.selectbox('Alcohol Drinks per Week', ['0-3', '0', '4 to 8', '1', '0-2', '6', '5', '2', '8', '9 or more', '10-17', '10'])
     
@@ -111,7 +111,7 @@ if add_selectbox == 'Online':
     
     
     input_dict = {'Race': Race, 'Ethnicity': Ethnicity, 'Age': Age, 'Weight in pounds': Weight, 'Height in inches': Height, 
-                  'Birth Control': Birth_Control, 'Exercise freq': Exercise_freq, 'Diff types of fruit veggies in house': Diff_types_of_fruit_veggies_in_house, 
+                  'Birth Control': Birth_Control, 'Exercise freq': Exercise_freq, #'Diff types of fruit veggies in house': Diff_types_of_fruit_veggies_in_house, 
                   'Exercise Type': Exercise_type, 'Smoke': smoker, 'Alcohol drinks/week': Alcohol_drinks_per_week, 'Heart Disease': heart_disease, 'Hypothyrodism ': Hypothyrodism, 
                   'Asthma': Asthma, 'Autoimmune': Autoimmune, 'Depression': Depression, 'High Blood Pressure': High_Blood_Pressure, 'High Cholesterol': High_Cholesterol, 
                   'Thyroid Disease': Thyroid_Disease}

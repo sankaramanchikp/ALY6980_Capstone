@@ -87,7 +87,7 @@ LSH_Data = LSH_Data.replace(('Yes', 'No'), (1, 0))
 
 ##Taking only features which are available without testing
 LSH_Data_2 = LSH_Data[['Race', 'Ethnicity', 'Age', 'Weight in pounds', 'Height in inches', 'Birth Control', 
-                       'Exercise freq', 'Exercise Type', 'Diff types of fruit veggies in house',
+                       'Exercise freq', 'Exercise Type',
                       'Smoke', 'Alcohol drinks/week', 'Heart Disease', 'Hypothyrodism ', 'Asthma', 'Autoimmune',
                       'Depression', 'High Blood Pressure', 'High Cholesterol', 'Thyroid Disease',
                       'diabeticRange_fp_beta']]
